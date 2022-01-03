@@ -13,7 +13,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "heroku-postbuild": "npm start"
   },
   "author": "",
   "license": "ISC"
